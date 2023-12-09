@@ -1,0 +1,7 @@
+.label-style {
+  color: white;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  /* Add a black border using text-shadow */
+}

@@ -1,0 +1,22 @@
+.about {
+  width: 100%;
+  height: calc(100vh - 11vh);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/public/landing.png");
+  background-size: contain;
+  background-position: center;
+  color: white; /* Set text color to white */
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black; /* Add a black border */
+
+  /* Additional styling if needed */
+}
+
+@media (max-width: 768px) {
+  .about {
+    background-size: 150% 100%;
+  }
+}
